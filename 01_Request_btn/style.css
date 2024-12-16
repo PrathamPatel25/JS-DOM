@@ -1,0 +1,35 @@
+body {
+  background-color: #212121;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#card {
+  height: 450px;
+  width: 400px;
+  background-color: #fff;
+  padding: 1rem;
+  padding-bottom: 6rem;
+}
+
+#card img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+#container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 1rem 0 1rem;
+}
+
+#btn {
+  width: 7rem;
+  border: none;
+  background-color: darkgray;
+  border-radius: 10px;
+  height: 2rem;
+}
